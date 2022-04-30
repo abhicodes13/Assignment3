@@ -7,9 +7,7 @@ public class currencyconversion{
 		// Prompt the user to enter the exchange rate from USD to RMB
 		System.out.print("Enter the exchange rate from dollars to RMB: ");
 		double exchangeRate= input.nextDouble();
-
-		// Prompt the user to enter 0 to convert from USD to RMB
-		// and 1 to convert from RMB to USD
+		
 		System.out.print("Enter 0 to convert dollars to RMB and 1 vice versa: ");
 		int inRate= input.nextInt();
 		double amount;
